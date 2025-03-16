@@ -19,8 +19,8 @@ Hardver koristen u sklopu kursa je ***DE1-SoC*** development board [user-manual]
 </p>
 
 ***DE1-SoC*** je razvojna ploča sa hibridnim ***CycloneV SoC*** koji uključuje:</br>
-<img src="/image/cpu.png" alt="icon" width="30" height="30"/> ***HPS*** - Hard Processor System predprojektovani Dual-core ARM procesor</br>
-<img src="/image/fpga" alt="icon" width="30" height="30"/> ***FPGA*** - na osnovu kog ćemo kreirati ***Soft processor*** i nekih dodatnih periferiija</br>
+<img src="/image/cpu.png" alt="icon" width="40" height="40"/> ***HPS*** - Hard Processor System predprojektovani Dual-core ARM procesor</br>
+<img src="/image/fpga" alt="icon" width="40" height="40"/> ***FPGA*** - na osnovu kog ćemo kreirati ***Soft processor*** i nekih dodatnih periferiija</br>
 <p align="left">
   <img src="/image/cyclonev.png" alt="Alt text" width="550" height="450"/>
 </p>
@@ -31,7 +31,8 @@ Softver koristen u sklopu kursa:
 -  <img src="/image/niosiiprocessor.png" alt="icon" width="25"/> Nios II Software Build Tools (Za razvoj aplikacija za Nios II Soft Procesor koji se realizuje u okviru FPGA dijela)
 - SoC Embedded Design Suite (za razvoj Linux aplikacija koje se izvrsavaju na HPS procesoru)
 
-## Cilj 🎯
+
+## Cilj 
 
 Cilj kursa jeste dobiti odgovore na sledeća pitanja:</br>
    ❓Kako kreirati ***Soft Processor*** koji se instancira na osnovu ***FPGA*** strukture?</br>
