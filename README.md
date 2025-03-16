@@ -5,10 +5,10 @@
 
 ## O projektu
 Radi se na hibridnom SoC sa predprojektovanim procesorskim dijelom ***HPS*** i konfigurabilnim ***FPGA*** dijelom.</br>
-- Potrebno je realizovati ***Soft Processor Nios II*** i osnovne periferije koji se instanciraju na osnovu ***FPGA*** strukture.
-- Potrebno je flash-ovati Linux OS na microSD za kontrolu rada ***HPS***-a.
+- Potrebno je realizovati ***Soft Processor Nios II*** i periferije koji se instanciraju na bazi ***FPGA*** strukture.
+- Potrebno je flash-ovati Linux OS na microSD za rad na ***HPS***-u.
 - Potrebno je ostvariti komunikaciju izmedju ***HPS*** i ***Nios II*** procesora.
-- Potrebno je omoguciti pristup periferijama koje su instancirane na ***FPGA*** strani, sa strane ***HPS*** dijela.
+- Potrebno je omoguciti pristup ***FPGA*** periferijama sa strane ***HPS***-a.
 - Krajnji cilj jeste kreirati multiprocesorski sistem na bazi vise ***Soft Nios II processor-a*** koji dijele zajednicke resurse i periferije.
   
 
