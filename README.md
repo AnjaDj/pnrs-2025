@@ -3,6 +3,15 @@
   <img src="/image/ne.png" alt="Description" width="750" height="400"/>
 </p>
 
+## O projektu
+Radi se na hibridnom SoC sa predprojektovanim procesorskim dijelom ***HPS*** i konfigurabilnim ***FPGA*** dijelom.</br>
+- Potrebno je realizovati ***Soft Processor Nios II*** i osnovne periferije koji se instanciraju na osnovu ***FPGA*** strukture.
+- Potrebno je flash-ovati Linux OS na microSD za kontrolu rada ***HPS***-a.
+- Potrebno je ostvariti komunikaciju izmedju ***HPS*** i ***Nios II*** procesora.
+- Potrebno je omoguciti pristup periferijama koje su instancirane na ***FPGA*** strani, sa strane ***HPS*** dijela.
+- Krajnji cilj jeste kreirati multiprocesorski sistem na bazi vise ***Soft Nios II processor-a*** koji dijele zajednicke resurse i periferije.
+  
+
 ## Hardver
 Hardver koristen u sklopu kursa je ***DE1-SoC*** development board [user-manual](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=836&PartNo=4#contents) </br>
 <p align="left">
