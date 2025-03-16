@@ -1,4 +1,7 @@
 # Projektovanje namjenskih računarskih struktura
+<p align="center">
+  <img src="/image/collage.jpg" alt="Alt text" width="450" height="400"/>
+</p>
 
 ## Hardver
 Hardver koristen u sklopu kursa je DE1-SoC development board [user-manual](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=836&PartNo=4#contents) </br>
