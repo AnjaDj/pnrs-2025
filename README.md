@@ -1,6 +1,6 @@
 # Projektovanje namjenskih računarskih struktura
 <p align="left">
-  <img src="/image/collage.jpg" alt="Description" style="max-width: 100%; height: auto;"/>
+  <img src="/image/collage.jpg" alt="Description" style="width: 2000; height: 300;"/>
 </p>
 
 ## Hardver
