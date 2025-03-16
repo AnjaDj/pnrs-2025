@@ -4,12 +4,12 @@
 </p>
 
 ## Hardver
-Hardver koristen u sklopu kursa je DE1-SoC development board [user-manual](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=836&PartNo=4#contents) </br>
+Hardver koristen u sklopu kursa je ***DE1-SoC*** development board [user-manual](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=836&PartNo=4#contents) </br>
 <p align="left">
   <img src="/image/de1soc.png" alt="Alt text" width="400" height="300"/>
 </p>
 
-DE1-SoC je razvojna ploča sa hibridnim CycloneV SoC koji uključuje:
+***DE1-SoC*** je razvojna ploča sa hibridnim ***CycloneV SoC*** koji uključuje:
 1. ***HPS*** (Hard Processor System) - predprojektovani Dual-core ARM procesor
 2. <img src="/image/fpga" alt="icon" width="25"/> ***FPGA*** - na osnovu kog ćemo kreirati ***Soft processor*** i nekih dodatnih periferiija</br>
 <p align="left">
