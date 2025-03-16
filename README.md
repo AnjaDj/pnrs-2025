@@ -12,7 +12,7 @@ Radi se na hibridnom SoC sa predprojektovanim procesorskim dijelom ***HPS*** i k
 - Krajnji cilj jeste kreirati multiprocesorski sistem na bazi vise ***Soft Nios II processor-a*** koji dijele zajednicke resurse i periferije.
   
 
-## Hardver <img src="/image/Altera_logo.svg.png" alt="icon" width="70" height="20"/>
+## Hardver  <img src="/image/Altera_logo.svg.png" alt="icon" width="70" height="20"/>
 Hardver koristen u sklopu kursa je ***DE1-SoC*** development board [user-manual](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=836&PartNo=4#contents) </br>
 <p align="left">
   <img src="/image/de1soc.png" alt="Alt text" width="550" height="450"/>
@@ -25,7 +25,7 @@ Hardver koristen u sklopu kursa je ***DE1-SoC*** development board [user-manual]
   <img src="/image/cyclonev.png" alt="Alt text" width="550" height="450"/>
 </p>
 
-## Softver
+## Softver   <img src="/image/intel.png" alt="icon" width="60" height="15"/>
 Softver koristen u sklopu kursa:
 -  <img src="/image/quartus" alt="icon" width="25"/> Quartus Prime Lite 16.01 (uz alat *Sopc Builder/Qsys/Platform Designer*)
 -  <img src="/image/niosiiprocessor.png" alt="icon" width="25"/> Nios II Software Build Tools (Za razvoj aplikacija za Nios II Soft Procesor koji se realizuje u okviru FPGA dijela)
