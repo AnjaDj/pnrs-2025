@@ -11,7 +11,7 @@ DE1-SoC je razvojna ploča sa hibridnim CycloneV SoC koji uključuje:
 
 ## Softver
 Softver koristen u sklopu kursa:
-- Quartus Prime Lite 16.01 (uz alat *Sopc Builder/Qsys/Platform Designer*) <img src="icon.png" alt="icon" width="20"/>
+- Quartus Prime Lite 16.01 (uz alat *Sopc Builder/Qsys/Platform Designer*) <img src="/image/quartus" alt="icon" width="20"/>
 - Nios II Software Build Tools (Za razvoj aplikacija za Nios II Soft Procesor koji se realizuje u okviru FPGA dijela)
 - SoC Embedded Design Suite (za razvoj Linux aplikacija koje se izvrsavaju na HPS procesoru)
 
