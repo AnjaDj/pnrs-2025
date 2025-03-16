@@ -9,11 +9,11 @@ Hardver koristen u sklopu kursa je ***DE1-SoC*** development board [user-manual]
   <img src="/image/de1soc.png" alt="Alt text" width="550" height="450"/>
 </p>
 
-***DE1-SoC*** je razvojna ploča sa hibridnim ***CycloneV SoC*** koji uključuje:
-1. ***HPS*** (Hard Processor System) - predprojektovani Dual-core ARM procesor
-2. <img src="/image/fpga" alt="icon" width="40" height="40"/> ***FPGA*** - na osnovu kog ćemo kreirati ***Soft processor*** i nekih dodatnih periferiija</br>
+***DE1-SoC*** je razvojna ploča sa hibridnim ***CycloneV SoC*** koji uključuje:</br>
+<img src="/image/cpu.png" alt="icon" width="30" height="30"/> ***HPS*** (Hard Processor System) - predprojektovani Dual-core ARM procesor</br>
+<img src="/image/fpga" alt="icon" width="30" height="30"/> ***FPGA*** - na osnovu kog ćemo kreirati ***Soft processor*** i nekih dodatnih periferiija</br>
 <p align="left">
-  <img src="/image/cyclonev.png" alt="Alt text" width="400" height="300"/>
+  <img src="/image/cyclonev.png" alt="Alt text" width="550" height="450"/>
 </p>
 
 ## Softver
