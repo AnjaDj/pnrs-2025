@@ -1,13 +1,17 @@
 # Projektovanje namjenskih računarskih struktura
 
 ## Hardver
-Hardver koristen u sklopu kursa je DE1-SoC development board [user-manual](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=836&PartNo=4#contents)
-!["DE1-SoC"](https://github.com/user-attachments/assets/5927317d-beab-4fe1-ac15-7042d3cba534)
+Hardver koristen u sklopu kursa je DE1-SoC development board [user-manual](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=836&PartNo=4#contents) </br>
+<p align="left">
+  <img src="/image/de1soc.png" alt="Alt text" width="400" height="300"/>
+</p>
 
 DE1-SoC je razvojna ploča sa hibridnim CycloneV SoC koji uključuje:
 1. ***HPS*** (Hard Processor System) - predprojektovani Dual-core ARM procesor
 2. <img src="/image/fpga" alt="icon" width="25"/> ***FPGA*** - na osnovu kog ćemo kreirati ***Soft processor*** i nekih dodatnih periferiija</br>
-!["CycloneV"](https://github.com/user-attachments/assets/f005a11a-60c9-4dd2-bd7e-5b7202263476)</br>
+<p align="left">
+  <img src="/image/cyclonev.png" alt="Alt text" width="400" height="300"/>
+</p>
 
 ## Softver
 Softver koristen u sklopu kursa:
