@@ -1,5 +1,5 @@
 # Projektovanje namjenskih računarskih struktura
-<p align="center">
+<p align="left">
   <img src="/image/collage.jpg" alt="Description" style="max-width: 100%; height: auto;"/>
 </p>
 
