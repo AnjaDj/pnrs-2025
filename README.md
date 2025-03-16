@@ -1,6 +1,6 @@
 # Projektovanje namjenskih računarskih struktura
 <p align="left">
-  <img src="/image/ne.png" alt="Description" width="750" height="400"/>
+  <img src="/image/ne.png" alt="Description" width="750" height="450"/>
 </p>
 
 ## O projektu
@@ -27,8 +27,8 @@ Hardver koristen u sklopu kursa je ***DE1-SoC*** development board [user-manual]
 
 ## Softver   <img src="/image/intel.png" alt="icon" width="60" height="15"/>
 Softver koristen u sklopu kursa:
--  <img src="/image/quartus" alt="icon" width="25"/> Quartus Prime Lite 16.01 (uz alat *Sopc Builder/Qsys/Platform Designer*)
--  <img src="/image/niosiiprocessor.png" alt="icon" width="25"/> Nios II Software Build Tools (Za razvoj aplikacija za Nios II Soft Procesor koji se realizuje u okviru FPGA dijela)
+-  <img src="/image/quartus" alt="icon" width="45" height="40"/> Quartus Prime Lite 16.01 (uz alat *Sopc Builder/Qsys/Platform Designer*)
+-  <img src="/image/niosiiprocessor.png" alt="icon" width="45" height="20"/> Nios II Software Build Tools (Za razvoj aplikacija za Nios II Soft Procesor koji se realizuje u okviru FPGA dijela)
 - SoC Embedded Design Suite (za razvoj Linux aplikacija koje se izvrsavaju na HPS procesoru)
 
 
