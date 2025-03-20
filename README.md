@@ -9,6 +9,6 @@ U ***Downloads*** sekciji ispod, biramo ***Individual Files***, te download-ujem
 - **ModelSim-Intel® FPGA Edition**
 - **Intel® Quartus® Prime (includes Nios® II EDS)**
 - **Intel® Cyclone® V Device Support**
-<p align="left">
-  <img src="/image/downloads.png" alt="Alt text" width="550" height="450"/>
+<p align="center">
+  <img src="/image/downloads.png" alt="Alt text" width="400" height="400"/>
 </p>
