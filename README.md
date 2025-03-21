@@ -18,11 +18,15 @@ Pokrećemo Quartus Lite Setup, uz selekciju sledećih komponenata
 </p>
 
 ## Kreiranje ***Quartus*** projekta
-Nakon sto je proces instalacije zavrsen, pokrecemo ***Quartus Prime*** softverski alat, te kreiramo novi projekat File->New Project Wizard</br>
-![image](https://github.com/user-attachments/assets/97622e9f-fd7d-4618-8635-eda0fb40b905) </br>
-Kao ***top level*** entitet koristimo entitet definisan u ***[fajlu](hdl/de1_soc_top.vhd)***.</br>
+Nakon sto je proces instalacije zavrsen, pokrecemo ***Quartus Prime*** softverski alat, te kreiramo novi projekat File->New Project Wizard. Potrebno je voditi racuna o tome da se izaberu 
+sljedece opcije u sklopu **Family, Device & Board Settings**:
+  - Family: Cyclone V (E/GX/GT/SX/SE/ST)
+  - Device: Cyclone V SE Mainstream
+  - Board : 5CSEMA5F31C6
 
-Top level entitet definise ulazne i izlazne pinove, ali ih je neophodno pridruziti odgovarajucem hardverskom stvarnom pinu. To mozemo raditi rucno, ali i preko **tcl** skripte.</br>
+Kao **top level** entitet koristimo entitet definisan u ***[fajlu](hdl/de1_soc_top.vhd)***.</br>
+
+Top level entitet definise ulazne i izlazne pinove, ali ih je neophodno pridruziti odgovarajucem hardverskom stvarnom pinu. To mozemo raditi rucno, ali i preko **tcl** skripte.
  ***[Tcl skriptu](tcl/pin_assignment_de1_soc.tcl)*** koja ce uraditi pin assignment, pokrecemo preko Tools->Tcl scripts...</br>
 <img src="https://github.com/user-attachments/assets/97745647-4b9b-47ea-9832-420d799da17d" width="600"> </br>
 
