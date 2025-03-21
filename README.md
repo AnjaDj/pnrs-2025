@@ -17,7 +17,9 @@ Pokrećemo Quartus Lite Setup, uz selekciju sledećih komponenata
 
 ## ??
 U sistemu koji se odnosi na Nios segment trebaju nam sljedece komponente:
-- **PLL**(PLL je predprojektovana komponenta, te samo podesavamo njene parametre da bismo dobili zeljene frekvencije na izlazu)</br>
-  **Nios II** procesor radi na **50MHz**</br>
-  **SDRAM kontroler** radi na **100MHz**</br>
-  **Eksterna SDRAM** radi na **100MHz** (takt koji pogoni eksternu SDRAM mora biti fazno pomjeren(3 758ps) u odnosu na takt koji se dovodi na SDRAM kontroler)</br>
+1. **PLL**(PLL je predprojektovana komponenta, te samo podesavamo njene parametre da bismo dobili zeljene frekvencije na izlazu)</br>
+   - **Nios II** procesor radi na **50MHz**</br>
+   - **SDRAM kontroler** radi na **100MHz**</br>
+   - **Eksterna SDRAM** radi na **100MHz** (takt koji pogoni eksternu SDRAM mora biti fazno pomjeren(3 758ps) u odnosu na takt koji se dovodi na SDRAM kontroler)</br>
+  ![image](https://github.com/user-attachments/assets/613fc694-d69d-4fc8-825f-89e8ffc72b8a)
+
