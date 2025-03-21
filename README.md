@@ -22,7 +22,7 @@ Nakon sto je proces instalacije zavrsen, pokrecemo ***Quartus Prime*** softversk
 ![image](https://github.com/user-attachments/assets/97622e9f-fd7d-4618-8635-eda0fb40b905) </br>
 Kao ***top level*** entitet koristimo entitet definisan u fajlu iz direktorijuma **hdl/de1_soc_top.vhd**</br>
 
-Zatim je potrebno pokrenuti ***Tcl skriptu*** iz tcl direktorijuma, preko Tools->Tcl scripts...</br>
+Zatim je potrebno pokrenuti ***Tcl skriptu*** koja ce uraditi pin assignment, iz **tcl** direktorijuma, preko Tools->Tcl scripts...</br>
 <img src="https://github.com/user-attachments/assets/97745647-4b9b-47ea-9832-420d799da17d" width="600">
 
 
