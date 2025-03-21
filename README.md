@@ -29,11 +29,11 @@ Izlazi PLL-a ce se dovoditi na ulaze drugih komponenata na nacin da:
 
 Prva 2 takt signala se dovode na interne komponente u sklopu chip-a, dok se treci takt signal dovodi na eksternu SDRAM koja se nalazi na razvojnoj ploci ali van chip-a. Zbog toga 
 je potrebno ***export***-ovati outclk2 tako da bude vidljiv na izlazu
-<img src="https://github.com/user-attachments/assets/a64fec32-6afc-4898-9555-23332c479645"  height="150">
+<img src="https://github.com/user-attachments/assets/a64fec32-6afc-4898-9555-23332c479645"  height="150"></br>
 
 <img src="https://github.com/user-attachments/assets/40fbfe7c-895a-45fd-ab52-25ea3564c2ad"  width="350">
 
 ## Qsys/Platform Designer - SDRAM kontroler
 SDRAM kontroler komunicira sa SDRAM</br>
-<img src="https://github.com/user-attachments/assets/b2c4a301-df4d-44ec-8ccc-213bcf4613fc">
+<img src="https://github.com/user-attachments/assets/b2c4a301-df4d-44ec-8ccc-213bcf4613fc"></br>
 <img src="https://github.com/user-attachments/assets/7e8f42de-d3de-4931-af60-42431a38c2c9">
