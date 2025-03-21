@@ -1,5 +1,8 @@
 # Realizacija hardvera namjenskog računarskog sistema
 
+Cilj jeste napraviti sistem koji ce se sastojati od
+  - Nios segmenta koji ce imati neke komponente(programabilni ulaz/izlaz) povezane na Nios procesor
+  - HPS segment
 Za potrebe opisa hardvera sistema koga zelimo projektovati, bice nam potreban ***Quartus Prime*** softverski alat, te je preduslov za dalji rad upravo instalacija pomenutom softverskog alata.</br>
 
 ## 📥	Instalacija ***Intel Quartus Prime 20.1 Lite Edition*** skup softverskih alata
@@ -28,7 +31,14 @@ Kao **top level** entitet koristimo entitet definisan u ***[fajlu](hdl/de1_soc_t
 
 Top level entitet definise ulazne i izlazne pinove, ali ih je neophodno pridruziti hardverskim stvarnim pinovima. To mozemo raditi rucno, ali i preko **tcl** skripte.
  ***[Tcl skriptu](tcl/pin_assignment_de1_soc.tcl)*** koja ce uraditi pin assignment, pokrecemo preko Tools->Tcl scripts...</br>
-<img src="https://github.com/user-attachments/assets/97745647-4b9b-47ea-9832-420d799da17d" width="600"> </br>
+<img src="https://github.com/user-attachments/assets/97745647-4b9b-47ea-9832-420d799da17d" width="600"> </br></br>
+
+
+## Opis hardverskog sistema
+Za potrebe opisa hardvera sistema koga zelimo projektovati, koristicemo alat ***Tools/Qsys(Platform Designer)***. 
+Od komponenata koje se odnose na Nios segment ce nam trebati:
+  -  Nios II procesor
+  -  SDRAM kontroler (za eskterni SDRAM)
 
 
 ## Qsys/Platform Designer - PLL konfiguracija
