@@ -54,7 +54,7 @@ Izlazi PLL-a ce se dovoditi na ulaze drugih komponenata na nacin da:
   - outclk2 od **100MHz** (fazno pomjeren) dovodimo na takt ulaz **SDRAM**-a (eksterna memorija koja se ne nalazi na chip-u)
 
 Prva 2 takt signala se dovode na interne komponente u sklopu chip-a, dok se treci takt signal dovodi na eksternu SDRAM koja se nalazi na razvojnoj ploci ali van chip-a. Zbog toga 
-je potrebno ***export***-ovati outclk2 tako da bude vidljiv na izlazu
+je potrebno ***export***-ovati outclk2 tako da bude vidljiv na izlazu</br>
 <img src="https://github.com/user-attachments/assets/a64fec32-6afc-4898-9555-23332c479645"  height="150"></br>
 
 <img src="https://github.com/user-attachments/assets/40fbfe7c-895a-45fd-ab52-25ea3564c2ad"  width="350">
