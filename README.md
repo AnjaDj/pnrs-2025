@@ -39,7 +39,7 @@ Za potrebe opisa hardvera sistema koga zelimo projektovati, koristicemo alat ***
 Od komponenata koje se odnose na Nios segment ce nam trebati:
   -  Nios II procesor
   -  SDRAM kontroler (za eskterni SDRAM)
-
+  -  PLL (SDRAM i SDRAM kontroler rade na duplo vecoj frekvenciji od sistemski podrazumjevane)
 
 ## Qsys/Platform Designer - PLL konfiguracija
 **PLL** je predprojektovana komponenta, te samo podesavamo njene parametre da bismo dobili zeljene frekvencije na izlazu</br>
@@ -60,7 +60,7 @@ je potrebno ***export***-ovati outclk2 tako da bude vidljiv na izlazu</br>
 <img src="https://github.com/user-attachments/assets/40fbfe7c-895a-45fd-ab52-25ea3564c2ad"  width="350">
 
 ## Qsys/Platform Designer - SDRAM kontroler
-SDRAM kontroler komunicira sa eksternom SDRAM. Prilikom konfigurisanja SDRAM kontrolera koristili smo ***presets*** fajl odnosno fajl sa vec predefinisanim parametarima SDRAM komponente. Koristen ***preset*** fajl za SDRAM kontroler se nalazi na repozitorijumu u sklopu direktorijuma **/presets/sdram-controller.qprs**
+SDRAM kontroler komunicira sa eksternom SDRAM. Prilikom konfigurisanja SDRAM kontrolera koristili smo ***[presets](presets/sdram-controller.qprs)*** fajl odnosno fajl sa vec predefinisanim parametarima SDRAM komponente. 
 <img src="https://github.com/user-attachments/assets/b2c4a301-df4d-44ec-8ccc-213bcf4613fc"></br>
 <img src="https://github.com/user-attachments/assets/7e8f42de-d3de-4931-af60-42431a38c2c9"></br>
 
