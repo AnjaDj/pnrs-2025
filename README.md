@@ -17,6 +17,15 @@ Pokrećemo Quartus Lite Setup, uz selekciju sledećih komponenata
   <img src="/image/select.png" alt="Alt text" width="250" height="200"/>
 </p>
 
+## Kreiranje ***Quartus*** projekta
+Nakon sto je proces instalacije zavrsen, pokrecemo ***Quartus Prime*** softverski alat, te kreiramo novi projekat File->New Project Wizard
+![image](https://github.com/user-attachments/assets/97622e9f-fd7d-4618-8635-eda0fb40b905) </br>
+Kao ***top level*** entitet koristimo entitet definisan u fajlu iz direktorijuma **hdl/de1_soc_top.vhd**</br>
+
+Zatim je potrebno pokrenuti ***Tcl skriptu*** iz tcl direktorijuma, preko Tools->Tcl scripts...</br>
+<img src="https://github.com/user-attachments/assets/97745647-4b9b-47ea-9832-420d799da17d" width="600">
+
+
 ## Qsys/Platform Designer - PLL konfiguracija
 **PLL** je predprojektovana komponenta, te samo podesavamo njene parametre da bismo dobili zeljene frekvencije na izlazu</br>
    - **Nios II** procesor radi na **50MHz**</br>
