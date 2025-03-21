@@ -15,11 +15,15 @@ Pokrećemo Quartus Lite Setup, uz selekciju sledećih komponenata
   <img src="/image/select.png" alt="Alt text" width="250" height="200"/>
 </p>
 
-## ??
+## Qsys/Platform Designer
 U sistemu koji se odnosi na Nios segment trebaju nam sljedece komponente:
 1. **PLL**(PLL je predprojektovana komponenta, te samo podesavamo njene parametre da bismo dobili zeljene frekvencije na izlazu)</br>
    - **Nios II** procesor radi na **50MHz**</br>
    - **SDRAM kontroler** radi na **100MHz**</br>
    - **Eksterna SDRAM** radi na **100MHz** (takt koji pogoni eksternu SDRAM mora biti fazno pomjeren(3 758ps) u odnosu na takt koji se dovodi na SDRAM kontroler)</br>
-  ![image](https://github.com/user-attachments/assets/613fc694-d69d-4fc8-825f-89e8ffc72b8a)
-
+  ![image](https://github.com/user-attachments/assets/613fc694-d69d-4fc8-825f-89e8ffc72b8a) </br>
+  
+Izlazi PLL-a ce se dovoditi na ulaze drugih komponenata na nacin da:
+  - outclk0 od **50MHz** dovodimo na takt ulaz **Nios procesora** i njegovih periferija
+  - outclk1 od **100MHz** dovodimo na takt ulaz **SDRAM kontrolera**
+  - outclk2 od **100MHz** (fazno pomjeren) dovodimo na takt ulaz **SDRAM**-a (eksterna memorija koja se ne nalazi na chip-u)
