@@ -64,3 +64,4 @@ SDRAM kontroler komunicira sa eksternom SDRAM. Prilikom konfigurisanja SDRAM kon
 
 
 ## Qsys/Platform Designer - Nios II procesor
+<img src="https://github.com/user-attachments/assets/632fe881-c461-43f4-8be7-f97055eb45d5">
