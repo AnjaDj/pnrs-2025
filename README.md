@@ -21,7 +21,7 @@ Pokrećemo Quartus Lite Setup, uz selekciju sledećih komponenata
 </p>
 
 ## Kreiranje ***Quartus*** projekta
-Nakon sto je proces instalacije zavrsen, pokrecemo ***Quartus Prime*** softverski alat, te kreiramo novi projekat File->New Project Wizard. Potrebno je voditi racuna o tome da se izaberu 
+Nakon sto je proces instalacije zavrsen, pokrecemo ***Quartus Prime*** softverski alat, te kreiramo novi projekat</br> File->New Project Wizard. Potrebno je voditi racuna o tome da se izaberu 
 sljedece opcije u sklopu **Family, Device & Board Settings**:
   - Family: Cyclone V (E/GX/GT/SX/SE/ST)
   - Device: Cyclone V SE Mainstream
