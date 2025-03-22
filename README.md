@@ -26,8 +26,7 @@ Nakon sto je proces instalacije zavrsen, pokrecemo ***Quartus Prime*** softversk
   - Device: Cyclone V SE Mainstream
   - Board : **5CSEMA5F31C6**
 
-Kao **top level** entitet koristimo entitet definisan u ***[fajlu](hdl/de1_soc_top.vhd)***.</br>
-
+Kao **top level** entitet koristimo entitet definisan u ***[VHDL fajlu](hdl/de1_soc_top.vhd)***. Top level entitet treba da opise strukturu citave ploce.</br>
 Top level entitet definise ulazne i izlazne pinove, ali ih je neophodno pridruziti hardverskim stvarnim pinovima. To mozemo raditi rucno, ali i preko **tcl** skripte.
  ***[Tcl skriptu](tcl/pin_assignment_de1_soc.tcl)*** koja ce uraditi pin assignment, pokrecemo preko Tools->Tcl scripts...</br>
 <img src="https://github.com/user-attachments/assets/97745647-4b9b-47ea-9832-420d799da17d" width="600"> </br></br>
