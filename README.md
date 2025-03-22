@@ -33,14 +33,14 @@ Top level entitet definise ulazne i izlazne pinove, ali ih je neophodno pridruzi
 
 
 ## Opis hardverskog sistema
-Za potrebe opisa hardvera sistema koga zelimo projektovati, koristicemo alat ***Tools/Qsys(Platform Designer)***. 
+Za potrebe opisa hardvera sistema koga zelimo projektovati, koristicemo alat ***Tools/Qsys(Platform Designer)***.</br>
 Od komponenata koje se odnose na Nios segment ce nam trebati:
   -  Nios II procesor
-  -  SDRAM kontroler (za eskterni SDRAM)
-  -  PLL (SDRAM i SDRAM kontroler rade na duplo vecoj frekvenciji od sistemski podrazumjevane)
+  -  SDRAM kontroler (aplikacija koja ce se izvrsavati na Nios II procesoru ce biti ucitana u eskterni SDRAM)
+  -  PLL (SDRAM i SDRAM kontroler rade na duplo vecoj frekvenciji od sistemski podrazumjevane 50MHz)
 
 ## Qsys/Platform Designer - PLL konfiguracija
-**PLL** je predprojektovana komponenta, te samo podesavamo njene parametre da bismo dobili zeljene frekvencije na izlazu</br>
+**PLL** je predprojektovana komponenta, te samo podesavamo njene parametre da bismo dobili zeljene frekvencije na njenom izlazu</br>
    - **Nios II** procesor radi na **50MHz**</br>
    - **SDRAM kontroler** radi na **100MHz**</br>
    - **Eksterna SDRAM** radi na **100MHz** (takt koji pogoni eksternu SDRAM mora biti fazno pomjeren(3 758ps) u odnosu na takt koji se dovodi na SDRAM kontroler)</br>
