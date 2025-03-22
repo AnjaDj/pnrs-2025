@@ -87,3 +87,4 @@ Jedan PIO ce biti za LED, imamo 10 LED. Drugi ce biti za switch-eve, imamo 10 sw
 
 ### Povezivanje Nios II komponenata
 ![image](https://github.com/user-attachments/assets/98990412-04d8-47bf-b5db-fd93a06994f3)
+![image](https://github.com/user-attachments/assets/7687e83d-b8c5-4386-a66f-8d85434959d9)
