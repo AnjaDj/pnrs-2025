@@ -74,3 +74,11 @@ Nema potrebe za rucnim podesavanjem parametara System ID Peripheral komponente j
 ### Qsys/Platform Designer - JTAG UART
 Za konzolni pristup Nios II procesoru. UART koji je preko JTAG-a vezan sa razvojnim okruzenjem za pisanje aplikacija za Nios II procesor. Preko **Avalon magistrale** vezujemo se na JTAG koji je povezan na programer sistema.
 <img src="https://github.com/user-attachments/assets/c210ed02-86d1-4379-937d-427fb62097fa">
+
+
+### Qsys/Platform Designer - Periferije PIO
+Ukljucujemo PIO za povezivanje sa digitalnim IO podsistemom.
+Jedan PIO ce biti za LED, imamo 10 LED. Drugi ce biti za switch-eve, imamo 10 switch-eva.</br>
+<img src="https://github.com/user-attachments/assets/21cc3582-6f47-415c-bcd6-8e858399fb64">
+<img src="https://github.com/user-attachments/assets/2be69a09-7318-4688-bf60-f9ed60ef1aad"> <br>
+
