@@ -65,3 +65,9 @@ SDRAM kontroler komunicira sa eksternom SDRAM. Prilikom konfigurisanja SDRAM kon
 
 ## Qsys/Platform Designer - Nios II procesor
 <img src="https://github.com/user-attachments/assets/632fe881-c461-43f4-8be7-f97055eb45d5">
+
+
+## Qsys/Platform Designer - System ID peripheral
+Kompajler uporedjuje System ID hardverskog sistema sa System ID sistema za koji je namijenjena aplikacija. Ukoliko postoji razlika, tada ce se prijaviti greska i program nece moci biti izvrsavan na hardveru. Ovo je bitno da bi se osigurala kozistencija izmedju softvera pisanog za jedan hardverski sistem i hardverskog sistema na kome ce se izvrsavati taj softver.
+Nema potrebe za rucnim podesavanjem parametara System ID Peripheral komponente jer ce prilikom generisanja sitema, **System ID** biti generisan automatski.
+<img src="https://github.com/user-attachments/assets/8770b79c-48f0-4d00-b0a9-7ffc3e96008e">
