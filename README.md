@@ -21,11 +21,10 @@ Pokrećemo Quartus Lite Setup, uz selekciju sledećih komponenata
 </p>
 
 ## Kreiranje ***Quartus*** projekta
-Nakon sto je proces instalacije zavrsen, pokrecemo ***Quartus Prime*** softverski alat, te kreiramo novi projekat</br> File->New Project Wizard. Potrebno je voditi racuna o tome da se izaberu 
-sljedece opcije u sklopu **Family, Device & Board Settings**:
+Nakon sto je proces instalacije zavrsen, pokrecemo ***Quartus Prime*** softverski alat, te kreiramo novi projekat</br> <i>File->New Project Wizard</i>. Potrebno je voditi racuna o tome da se izaberu sljedece opcije u sklopu **Family, Device & Board Settings** prozora:
   - Family: Cyclone V (E/GX/GT/SX/SE/ST)
   - Device: Cyclone V SE Mainstream
-  - Board : 5CSEMA5F31C6
+  - Board : **5CSEMA5F31C6**
 
 Kao **top level** entitet koristimo entitet definisan u ***[fajlu](hdl/de1_soc_top.vhd)***.</br>
 
