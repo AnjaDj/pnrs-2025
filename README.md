@@ -34,13 +34,9 @@ Top level entitet definise ulazne i izlazne pinove, ali ih je neophodno pridruzi
 
 ## Opis hardverskog sistema
 Za potrebe opisa hardvera sistema koga zelimo projektovati, koristicemo alat ***Tools/Qsys(Platform Designer)***.</br>
-Od komponenata koje se odnose na Nios segment ce nam trebati:
-  -  Nios II procesor
-  -  SDRAM kontroler (aplikacija koja ce se izvrsavati na Nios II procesoru ce biti ucitana u eskterni SDRAM)
-  -  PLL (SDRAM i SDRAM kontroler rade na duplo vecoj frekvenciji od sistemski podrazumjevane 50MHz)
+Od komponenata koje se odnose na Nios segment ce nam trebati sledece komponente:
 
-
-## Qsys/Platform Designer - PLL konfiguracija
+### Qsys/Platform Designer - PLL konfiguracija
 **PLL** je predprojektovana komponenta, te samo podesavamo njene parametre da bismo dobili zeljene frekvencije na njenom izlazu</br>
    - **Nios II** procesor radi na **50MHz**</br>
    - **SDRAM kontroler** radi na **100MHz**</br>
@@ -59,22 +55,22 @@ je potrebno ***export***-ovati outclk2 tako da bude vidljiv na izlazu</br>
 <img src="https://github.com/user-attachments/assets/40fbfe7c-895a-45fd-ab52-25ea3564c2ad"  width="350">
 
 
-## Qsys/Platform Designer - SDRAM kontroler
+### Qsys/Platform Designer - SDRAM kontroler
 SDRAM kontroler komunicira sa eksternom SDRAM. Prilikom konfigurisanja SDRAM kontrolera koristili smo ***[presets](presets/sdram-controller.qprs)*** fajl odnosno fajl sa vec predefinisanim parametarima SDRAM komponente. 
 <img src="https://github.com/user-attachments/assets/b2c4a301-df4d-44ec-8ccc-213bcf4613fc"></br>
 <img src="https://github.com/user-attachments/assets/7e8f42de-d3de-4931-af60-42431a38c2c9"></br>
 
 
-## Qsys/Platform Designer - Nios II procesor
+### Qsys/Platform Designer - Nios II procesor
 <img src="https://github.com/user-attachments/assets/632fe881-c461-43f4-8be7-f97055eb45d5">
 
 
-## Qsys/Platform Designer - System ID peripheral
+### Qsys/Platform Designer - System ID peripheral
 Kompajler uporedjuje **System ID** hardverskog sistema sa **System ID** sistema za koji je namijenjena aplikacija. Ukoliko postoji razlika, tada ce se prijaviti greska i program nece moci biti izvrsavan na hardveru. Ovo je bitno da bi se osigurala kozistencija izmedju softvera pisanog za jedan hardverski sistem i hardverskog sistema na kome ce se izvrsavati taj softver.
 Nema potrebe za rucnim podesavanjem parametara System ID Peripheral komponente jer ce prilikom generisanja sitema, **System ID** biti generisan automatski.
 <img src="https://github.com/user-attachments/assets/8770b79c-48f0-4d00-b0a9-7ffc3e96008e">
 
 
-## Qsys/Platform Designer - JTAG UART
+### Qsys/Platform Designer - JTAG UART
 Za konzolni pristup Nios II procesoru. UART koji je preko JTAG-a vezan sa razvojnim okruzenjem za pisanje aplikacija za Nios II procesor. Preko **Avalon magistrale** vezujemo se na JTAG koji je povezan na programer sistema.
 <img src="https://github.com/user-attachments/assets/c210ed02-86d1-4379-937d-427fb62097fa">
