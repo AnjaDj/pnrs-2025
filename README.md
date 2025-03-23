@@ -1,8 +1,8 @@
 # Realizacija hardvera namjenskog računarskog sistema
 
 Cilj jeste napraviti sistem koji ce se sastojati od
-  - Nios segmenta koji ce imati neke komponente(programabilni ulaz/izlaz) povezane na Nios procesor
-  - HPS segment
+  - ***Nios segmenta*** - Nios II procesor sa SDRAM na koji su povezane periferije (programabilni I/O) 
+  - ***HPS segment*** koji se sastoji od HPS procesora
 Za potrebe opisa hardvera sistema koga zelimo projektovati, bice nam potreban ***Quartus Prime*** softverski alat, te je preduslov za dalji rad upravo instalacija pomenutom softverskog alata.</br>
 
 ## 📥	Instalacija ***Intel Quartus Prime 20.1 Lite Edition*** skup softverskih alata
@@ -34,7 +34,7 @@ Top level entitet definise ulazne i izlazne pinove, ali ih je neophodno pridruzi
 
 ## Opis hardverskog sistema
 Za potrebe opisa hardvera sistema koga zelimo projektovati, koristicemo alat ***Tools/Qsys(Platform Designer)***.</br>
-Od komponenata koje se odnose na Nios segment ce nam trebati sledece komponente:
+Od komponenata koje se odnose na **Nios segment** ce nam trebati sledece komponente:
   - Nios II procesor
   - SDRAM kontroler (za komunikaciju sa eksternom SDRAM)
   - periferije povezane na Nios II procesor (LEDs i switch-evi)
@@ -92,5 +92,7 @@ Jedan PIO ce biti za LED, imamo 10 LED. Drugi ce biti za switch-eve, imamo 10 sw
 
 
 ### Povezivanje Nios II komponenata
+
+**Nios procesor** je sada povezan sa **takt sistemom** i **memorijom**. Procesor moze da kontrolise 2 **periferije** LEDs i switches. Imamo mogucnost debagovanja preko **JTAG UART**-a. Takodje je obezbijedjena konzistentnost softvera i hardvera preko **System ID**.
 ![image](https://github.com/user-attachments/assets/98990412-04d8-47bf-b5db-fd93a06994f3)
 ![image](https://github.com/user-attachments/assets/7687e83d-b8c5-4386-a66f-8d85434959d9)
