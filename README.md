@@ -35,6 +35,12 @@ Top level entitet definise ulazne i izlazne pinove, ali ih je neophodno pridruzi
 ## Opis hardverskog sistema
 Za potrebe opisa hardvera sistema koga zelimo projektovati, koristicemo alat ***Tools/Qsys(Platform Designer)***.</br>
 Od komponenata koje se odnose na Nios segment ce nam trebati sledece komponente:
+  - Nios II procesor
+  - SDRAM kontroler (za komunikaciju sa eksternom SDRAM)
+  - periferije povezane na Nios II procesor (LEDs i switch-evi)
+  - System ID (kozistencija izmedju softvera pisanog za jedan hardverski sistem i hardverskog sistema na kome ce se izvrsavati taj softver)
+  - JTAG UART za pristup konzoli
+  - PLL (ne rade sve komponente na istoj frekvenciji)
 
 ### Qsys/Platform Designer - PLL konfiguracija
 **PLL** je predprojektovana komponenta, te samo podesavamo njene parametre da bismo dobili zeljene frekvencije na njenom izlazu</br>
