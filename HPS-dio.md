@@ -26,3 +26,8 @@ Interupt za Ethernet je vezan za pin **C19** i treba ga vezati za funkciju **HPS
 
 **SDRAM podesavanje**:
 SDRAM koji se nalazi na HPSu je povezan na DDR3, za njegovo podesavanje koristicemo **[presets](presets/de1-soc-hps-ddr.qprs)**.
+
+
+### Povezivanje
+
+**hps_io** je interfejs za povezivanje sa periferijama samog HPS-a exportovanih na pinove HPS dijela.
