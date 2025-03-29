@@ -23,3 +23,6 @@ periferije sa FPGA dijela chipa.</br>
 
 Interupt za Ethernet je vezan za pin **C19** i treba ga vezati za funkciju **HPS_GPIO35**</br>
 ![image](https://github.com/user-attachments/assets/d2b4b59d-a4aa-4838-993d-e00e74ae91fd)
+
+**SDRAM podesavanje**:
+SDRAM koji se nalazi na HPSu je povezan na DDR3, za njegovo podesavanje koristicemo **presets**.
