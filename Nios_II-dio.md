@@ -1,8 +1,8 @@
 # Realizacija hardvera namjenskog računarskog sistema
 
 Cilj jeste napraviti sistem koji ce se sastojati od
-  - ***Nios segmenta*** - Nios II procesor sa SDRAM na koji su povezane periferije (programabilni I/O) 
-  - ***HPS segment*** koji se sastoji od HPS procesora\
+  - ***Nios segmenta*** - Nios II procesor sa SDRAM, pratecim komponentama i periferijama (programabilni I/O) na FPGA dijelu chipa
+  - ***HPS segment*** - HPS procesor sa periferijama na HPS dijelu chipa
 
 Za potrebe opisa hardvera sistema koga zelimo projektovati, bice nam potreban ***Quartus Prime*** softverski alat, te je preduslov za dalji rad upravo instalacija pomenutom softverskog alata.</br>
 
