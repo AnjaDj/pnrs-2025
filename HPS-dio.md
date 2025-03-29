@@ -30,4 +30,9 @@ SDRAM koji se nalazi na HPSu je povezan na DDR3, za njegovo podesavanje koristic
 
 ### Povezivanje
 
-**hps_io** je interfejs za povezivanje sa periferijama samog HPS-a exportovanih na pinove HPS dijela.
+- **hps_io** je interfejs za povezivanje sa periferijama samog HPS-a exportovanih na pinove HPS dijela.
+- hps clk povezujemo na sistemskih 50MHz (isti takt na kome radi i Nios II)
+- **FPGA** koristi **Avalon magistralu** dok **HPS** koristi **AXI magistralu**. Da bi oni komunicirali mora postojati **bridge** a to su
+   -  *FPGA-to-HPS interface*
+   -  *HPS-to-FPGA interface*
+   -  ***Lightweight HPS-to-FPGA interface***
