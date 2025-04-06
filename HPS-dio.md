@@ -1,6 +1,10 @@
 # Realizacija dijela sistema sa HPS procesorom i periferijama na HPS i FPGA dijelu chipa
-Cilj je da napravimo skup periferija sa HPS strane kojima HPS moze direktno pristupiti (LED i taster), te da omogucimo da 
-HPS ima pristup periferijama sa FPGA strane (7s displeji i tasteri).
+Cilj je da napravimo skup periferija 
+- kojima HPS ima direktan pristup (*HPS User LED* i *HPS User Button*) i 
+- da HPS ima mogucnost pristupa periferijama na FPGA strani (memorijski mapiranim perfierijama ogranicenog skupa registara - *7-Seg Displays* i *Push Buttons*). </br>
+
+Za *7-Seg Displays* i *Push Buttons* bice kreirane *PIO* komponente koje ce obezbijediti fizicku konekciju sa *7-Seg Displays* i *Push Buttons*. *PIO* komponentama cemo pristupiti iz HPS-a preko *Lightweight HPS-to-FPGA interface*-a.
+
 
 ### Qsys - HPS procesor
 Komunikacija izmedju **HPS** i **FPGA** dijela ce se svoditi na jednosmjernu komunikaciju u smislu da ce HPS procesor koristiti
