@@ -39,6 +39,10 @@ je potrebno ***export***-ovati outclk2 tako da bude vidljiv na izlazu</br>
 
 
 ### Qsys/Platform Designer - SDRAM kontroler
+FPGA dio ima svoju **SDRAM 64MB** i ona je eksterna memorija za *CycloneV SoC*, te nam je iz tog razloga potreban SDRAM kontroler.</br>
+U ovu SDRAM 64MB ce se ucitati aplikacija kako bi ju Nios II mogao izvrsiti</br>
+![image](https://github.com/user-attachments/assets/aba48e0f-139e-48e1-a6cd-eb6814b82974)
+
 SDRAM kontroler komunicira sa eksternom SDRAM. Prilikom konfigurisanja SDRAM kontrolera koristili smo ***[presets](presets/sdram-controller.qprs)*** fajl odnosno fajl sa vec predefinisanim parametarima SDRAM komponente. 
 <img src="https://github.com/user-attachments/assets/b2c4a301-df4d-44ec-8ccc-213bcf4613fc"></br>
 <img src="https://github.com/user-attachments/assets/7e8f42de-d3de-4931-af60-42431a38c2c9"></br>
