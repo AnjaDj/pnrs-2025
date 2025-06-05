@@ -45,8 +45,9 @@ U ovu SDRAM 64MB ce se ucitati aplikacija kako bi ju Nios II mogao izvrsiti</br>
 
 SDRAM kontroler komunicira sa eksternom SDRAM. Prilikom konfigurisanja SDRAM kontrolera koristili smo ***[presets](presets/sdram-controller.qprs)*** fajl odnosno fajl sa vec predefinisanim parametarima SDRAM komponente. 
 <img src="https://github.com/user-attachments/assets/b2c4a301-df4d-44ec-8ccc-213bcf4613fc"></br>
-<img src="https://github.com/user-attachments/assets/7e8f42de-d3de-4931-af60-42431a38c2c9"></br>
+<img src="https://github.com/user-attachments/assets/7e8f42de-d3de-4931-af60-42431a38c2c9"></br></br>
 
+Umjesto eksternog vec postojeceg SDRAM-a mogli smo koristiti i *on-chip memoriju* koja bi se realizovala preko blokovskog RAMa na FPGA dijelu, ali je ona mnogo manjeg kapaciteta.
 
 ### Qsys/Platform Designer - Nios II procesor
 <img src="https://github.com/user-attachments/assets/632fe881-c461-43f4-8be7-f97055eb45d5">
